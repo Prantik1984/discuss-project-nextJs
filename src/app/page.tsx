@@ -6,14 +6,14 @@ export default async function Home() {
   const session = await auth();
   return (
     <div>
-      <form action={actions.signIn}>
+      {/* <form action={actions.signIn}>
         <Button type="Submit">Sign In</Button>
       </form>
       <form action={actions.signOut}>
         <Button type="Submit">Sign out</Button>
-      </form>
+      </form> */}
 
-      <Profile></Profile>
+      {/* <Profile></Profile> */}
     </div>
   );
 }
